@@ -1,7 +1,7 @@
 # Central SQS Terraform Module
 
 
-## Overview
+## Overview #####
 
 Terraform Template to configure an SQS queue
 
@@ -18,7 +18,6 @@ Terraform Template to configure an SQS queue
 **dlq_arn** (String) (Optional)  ARN of dead letter queue to associate with SQS
 
 **max_receive_count** (String) (Optional, default 5) The maximum number of times a message can be received before it is sent to the Dead Letter Queue
-
 
 
 ## Outputs
